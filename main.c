@@ -3,7 +3,7 @@
 
 
 // how func but reverse
-char* nufc (char *string,const size_t length) {
+char* cnuf (char *string,const size_t length) {
     if (string == NULL) return NULL;
     char *right = &string[length-1];
     char *left = &string[0];
