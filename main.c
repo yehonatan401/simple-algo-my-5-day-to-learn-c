@@ -28,5 +28,5 @@ char* cnuf (char *string,const size_t length) {
 
 int main() {
     char string[] = "Hello world!";
-    printf("%s\n", nufc(string, strlen(string)));
+    printf("%s\n", cnuf(string, strlen(string)));
 }
